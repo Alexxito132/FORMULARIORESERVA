@@ -1,0 +1,65 @@
+body{
+    background-color: #fff8f5;
+}
+
+.tabla{
+    width: 100%;
+}
+
+.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    background-color: #3396D3;
+    color: white;
+
+}
+.label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    display: inline-block;   
+    width: 100px;  
+}
+
+.label2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-left: 20px;   
+    width: 100px;  
+}
+
+.input{
+    width: 250px;
+    height: 24px;
+    font-size: 16px;
+}
+.td1{
+    padding: 15px;
+    background-color: #FFF0CE;
+}
+.fieldset{
+    text-align: center;
+}
+.td2{
+    padding: 15px;
+    background-color: #fdf5e2;
+}
+
+.radio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;  
+}
+.subtitulos{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.boton{
+    background-color: #3396D3;
+    border: 0;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    color: white;
+}

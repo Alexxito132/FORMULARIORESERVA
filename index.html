@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario de Reserva</title>
+    </head>
+
+    <body>
+        <form class="form">
+            <table border="1" class="tabla">
+
+                <tr>
+                    <th class="titulo">Formulario de Reserva</th>
+                </tr>
+                <tr>
+                    <td class="td1">
+                        <fieldset class="fieldset">
+                            <legend class="subtitulos">Datos Personales</legend>
+                            <p>
+                                <label class="label" for="inputName">Nombre:</label>
+                                <input class="input" type="text" id="inputName">
+                                <label class="label" for="inputLastName">Apellidos:</label>
+                                <input class="input" type="text" id="inputLastName">
+                                <label class="label" for="inputDireccion">Dirección:</label>
+                                <input class="input" type="text" id="inputDireccion">
+                                <label class="label" for="inputCalle">Calle:</label>
+                                <input class="input" type="text" id="inputCalle">
+                            </p>
+                            <p>
+                                <label class="label" for="inputColonia">Colonia:</label>
+                                <input class="input" type="text" id="inputColonia">
+                                <label class="label" for="inputNum">Num:</label>
+                                <input class="input" type="number" id="inputNum">
+                                <label class="label" for="inputCodigoPostal">CP:</label>
+                                <input class="input" type="number" id="inputCodigoPostal">
+                                <label class="label" for="inputEstado">Estado:</label>
+                                <input class="input" type="text" id="inputEstado">
+                            </p>
+                            <P>
+                                <label class="label" for="inputRFC">RFC:</label>
+                                <input  class="input" type="text" id="inputRFC">
+                            </P>
+                        </fieldset>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="td2">
+                        <fieldset class="fieldset">
+                            <legend class="subtitulos">Datos de Reserva</legend>
+                            <p>
+                                <label class="label2" for="fechaEntrada">Fecha de Entrada:</label>
+                                <input class="input" type="date" id="fechaEntrada">
+                                <label class="label2" for="fechaSalida">Fecha de Salida:</label>
+                                <input class="input" type="date" id="fechaSalida">
+                            </p>
+                            <p>
+                                <label class="label2" for="tipoHabitacion">Tipo de habitación:</label>
+                                <select class="input" id="tipoHabitacion">
+                                    <option>Simple</option>
+                                    <option>Duplex</option>
+                                    <option>Premium</option>
+                                </select>
+                                <label class="label2" for="tipoCama">Tipo de Cama:</label>
+                                <select class="input" id="tipoCama">
+                                    <option value="Mat">Matrimonial</option>
+                                    <option value="King">King</option>
+                                    <option value="Queen">Queen</option>
+                                </select>
+                                <label class="label2">Cantidad de personas:</label>
+                                <input type="radio" name="personasCantidad" id="inputRadio2Personas" />
+                                <label for="inputRadio2Personas" class="radio">2 personas</label>
+                                <input type="radio" name="personasCantidad" id="inputRadio4Personas" />
+                                <label for="inputRadio4Personas" class="radio">4 personas</label>
+                                <input type="radio" name="personasCantidad" id="inputRadio6Personas" />
+                                <label for="inputRadio6Personas" class="radio">6 personas</label>
+                            </p>
+                            
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">
+                        <fieldset class="fieldset">
+                            <legend class="subtitulos">Datos de accesibilidad</legend>
+                            <p>
+                                <label class="label" for="idioma">Idioma:</label>
+                                <select class="input" id="idioma">
+                                    <option value="es">Español</option>
+                                    <option value="en">Inglés</option>
+                                    <option value="Fr">Frances</option>
+                                    <option value="Al">Alemán</option>
+                                </select>
+                                <label class="label" for="telefono">Teléfono de contacto:</label>
+                                <input class="input" type="number" id="telefono">
+                            </p>
+                        </fieldset>
+                    </td>
+                </tr>
+            </table>
+            <p>
+                <button type="submit" class="boton">Enviar</button>
+            </p>
+        </form>
+
+
+</body>
+
+</html>
